@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Redirect legacy .php URLs (login.php, register.php, etc.) to clean routes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([a-zA-Z0-9_\-/]+)\.php$ /Azu/$1 [R=301,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ public/index.php/$1 [L]

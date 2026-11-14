@@ -67,7 +67,7 @@ class Auth extends BaseController
 
                     if ($builder->insert($data)) {
                         $session->setFlashdata('success', 'Registration Successful! Please login.');
-                        return redirect()->to('auth/login');
+                        return redirect()->to('login');
                     } else {
                         $session->setFlashdata('error', 'Error registering user');
                     }
@@ -85,6 +85,6 @@ class Auth extends BaseController
     public function logout()
     {
         session()->destroy();
-        return redirect()->to('auth/login');
+        return redirect()->to('login');
     }
 }

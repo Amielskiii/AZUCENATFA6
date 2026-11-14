@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Welcome - TANJ</title>
+    <title>Welcome - Timothy Amiel Azucena</title>
     <style>
         body{
             font-family:Arial, Helvetica, sans-serif;
@@ -133,7 +133,7 @@
 <body>
 
 <div class="header">
-    <h1>Welcome to TANJ</h1>
+    <h1>Welcome to Timothy Amiel Azucena</h1>
     <p>Your Secure User Management System</p>
 </div>
 
@@ -156,17 +156,17 @@
 
 <div class="cta">
     <div class="cta-buttons">
-        <a href="login.php">
+        <a href="/Azu/login">
             <button class="login-btn">Login</button>
         </a>
-        <a href="register.php">
+        <a href="/Azu/register">
             <button class="register-btn">Create Account</button>
         </a>
     </div>
 </div>
 
 <div class="footer">
-    Jefferson Tan - TANJ User Management System
+    Timothy Amiel Azucena - Timothy Amiel Azucena User Management System
 </div>
 
 </div>

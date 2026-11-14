@@ -1,9 +1,9 @@
-# TANJ - Point of Sale System
+# Timothy Amiel Azucena - Point of Sale System
 
 ## Setup Instructions
 
 1. Ensure XAMPP is running (Apache and MySQL)
-2. Place this project in `C:\xampp\htdocs\TANJ\`
+2. Place this project in `C:\xampp\htdocs\Azu\`
 3. Create the database `pos_db` in phpMyAdmin
 4. Configure database settings in `.env` file (copy from `.env.example` if needed)
 5. Ensure the database tables exist with the required structure
@@ -20,11 +20,11 @@ The system comes with a pre-configured admin account:
 
 ## Access Points
 
-- **Home Page:** `http://localhost/TANJ/`
-- **Login:** `http://localhost/TANJ/auth/login`
-- **Register:** `http://localhost/TANJ/auth/register`
-- **Admin Dashboard:** `http://localhost/TANJ/admin` (requires admin login)
-- **View Records:** `http://localhost/TANJ/admin/view_records/users` (requires admin login)
+- **Home Page:** `http://localhost/Azu/`
+- **Login:** `http://localhost/Azu/auth/login`
+- **Register:** `http://localhost/Azu/auth/register`
+- **Admin Dashboard:** `http://localhost/Azu/admin` (requires admin login)
+- **View Records:** `http://localhost/Azu/admin/view_records/users` (requires admin login)
 
 ## Database Configuration
 

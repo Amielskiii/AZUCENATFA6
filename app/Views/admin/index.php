@@ -194,11 +194,11 @@ hr{
 
 <div class="header">
     <div class="logo">
-        TANJ <span>User Management</span>
+        Timothy Amiel Azucena <span>User Management</span>
     </div>
     <div class="nav">
-        <a href="<?= base_url('/') ?>">Home</a>
-        <a href="<?= base_url('auth/logout') ?>">Logout</a>
+        <a href="/Azu/">Home</a>
+        <a href="/Azu/logout">Logout</a>
     </div>
 </div>
 
@@ -207,7 +207,7 @@ hr{
         <div class="top">
             <h1>Admin Account</h1>
             <div class="menu">
-                <a href="<?= base_url('admin/view_records') ?>">View Records</a>
+                <a href="/Azu/admin/view_records/users">View Records</a>
             </div>
         </div>
 
@@ -250,7 +250,7 @@ hr{
 </div>
 
 <div class="footer">
-© Jefferson Tan - TANJ User Management System
+© Timothy Amiel Azucena - Timothy Amiel Azucena User Management System
 </div>
 
 </body>
